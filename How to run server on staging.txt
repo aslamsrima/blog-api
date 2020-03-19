@@ -1,0 +1,9 @@
+Go to ./server folder in root of application arch
+Execute below command for run server using pm2
+	/c/Users/yash/AppData/Roaming/npm/node_modules/pm2/bin/pm2 start app.js
+
+If you want to see all pm2 instances, run below command
+	/c/Users/yash/AppData/Roaming/npm/node_modules/pm2/bin/pm2 list
+
+If you want to stop this server using pm2, run below command
+	/c/Users/yash/AppData/Roaming/npm/node_modules/pm2/bin/pm2 stop 0

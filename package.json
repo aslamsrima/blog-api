@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for blog",
+  "main": "app.js",
+  "scripts": {
+    "preinstall": "npm i pm2 -g",
+    "start": "pm2 start app.js --log-date-format 'YYYYMMDD'",
+    "kill-all": "pm2 kill -all",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "errorhandler": "^1.5.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "slugify": "^1.4.0"
+  }
+}
